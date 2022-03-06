@@ -16,18 +16,21 @@
                 </div> 
             </div>      
             <div class="flex flex-col md:justify-center xl:justify-center md:items-center md:pt-12 xl:pt-20 lg:w-6/12">
-                <div class="w-1/2 md:w-full  my-2 xl:my-0 xl:mb-3 xl:-mt-2 flex justify-start">
+                <div class="w-1/2 md:w-full  my-2 xl:my-0 xl:mb-3 xl:mt-3 flex justify-start">
                     <h1 class="font-serif text-white font-semibold text-sm lg:text-base">Quick Access</h1>
                 </div>  
                 <div class="w-full flex justify-start mb-6">
                     <ul class="flex flex-col items-center justify-start">
                         <li @click="scrollToProcess" class="text-white font-serif font-normal text-sm pl-1 mb-1 cursor-pointer">Working Process</li>
                         <li @click="scrollToOurMission" class="text-white font-serif font-normal text-sm pr-6 mb-1 cursor-pointer">Our Mission</li>
-                        <li @click="scrollToArticles" class="text-white font-serif font-normal text-sm cursor-pointer">News & Articles</li>
+                        <li @click="scrollToArticles" class="text-white font-serif font-normal text-sm mb-1 cursor-pointer">News & Articles</li>
+                        <router to="contactUs">
+                            <li class="flex justify-start text-white text-left font-serif font-normal text-sm pr-7  cursor-pointer">Contact Us</li>
+                        </router>
                     </ul>
                 </div> 
             </div>   
-            <div class="flex flex-col lg:justify-center lg:pt-0 xl:pt-10">
+            <div class="flex flex-col lg:justify-center lg:pt-0 xl:pt-5">
                 <div class="w-1/2 ml-1 my-2 xl:-mt-2 flex justify-start">
                     <h1 class="font-serif text-white font-semibold text-sm lg:text-base">Newsletter</h1>
                 </div> 
