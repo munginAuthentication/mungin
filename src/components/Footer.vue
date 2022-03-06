@@ -24,9 +24,9 @@
                         <li @click="scrollToProcess" class="text-white font-serif font-normal text-sm pl-1 mb-1 cursor-pointer">Working Process</li>
                         <li @click="scrollToOurMission" class="text-white font-serif font-normal text-sm pr-6 mb-1 cursor-pointer">Our Mission</li>
                         <li @click="scrollToArticles" class="text-white font-serif font-normal text-sm mb-1 cursor-pointer">News & Articles</li>
-                        <router to="contactUs">
+                        <router-link to="/contactUs">
                             <li class="flex justify-start text-white text-left font-serif font-normal text-sm pr-7  cursor-pointer">Contact Us</li>
-                        </router>
+                        </router-link>
                     </ul>
                 </div> 
             </div>   
